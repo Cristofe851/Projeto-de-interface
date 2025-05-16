@@ -1,1 +1,90 @@
-
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portifolio pessoal</title>
+  <style>
+    body{
+      font-family: Arial, Sans-Serif;
+      line-height: 1. 6;
+      background-color: #ffffff;
+      color: #333333;
+      margin: 0;
+      padding: 0;
+    }
+    header, nav, main, footer{
+      padding: 1rem;
+      margin: auto;
+      max-width: 90px;
+    }
+    header{
+      background-color: #004466;
+      color: white;
+    }
+    nav a {
+      margin-rigth: 15px;
+      color;white;
+      text-decoration: none;
+    }
+    nav a:focus, nav a:hover{
+      text-decoration: underline;
+    }
+    main{
+      padding-top:1rem;
+    }
+    section {
+      margin-bottom:2rem;
+    }
+    h1,h2{
+      color: #004466;
+    }img{
+      max-width: 100%;
+      heigth:auto;
+    }
+    footer{
+      background-color: #eeeeee;
+      text-align:center;
+      font-size:0. 9rem;
+    }
+    .visually-hidden{
+      position: absolute;
+      left: 1000px;
+      top:auto:
+      width: 1px;
+      height: 1px;
+      overflow:hidden;
+    }
+    }
+  </style>
+  </head>
+  <body>
+      <header>
+        <h1>meu Portifólio</h1>
+        <nav aria-label="Menu Principal">
+          <a href= "#Sobre" Sobre mim</a>    
+          <a href="projetos"> Projetos</a>
+          <a href="#contato">Contato</a>
+        </nav>
+      </header>
+      <main>
+        <section id="sobre">
+        <h2> Sobre Mim</h2>
+        <p> Olá meu nome é [NOME], sou estudante de T.I com foco em acessibilidade e usabilidade web</p>
+        </article>
+        <h3>Projeto Pessoal</h3>
+        <p>Desenvolvi um site com foco total em acessibilidade seguindo as diretrizes do Projeto de Interface</p>
+        </article>
+        </section>
+        <selection id="contato">
+          <h2>Contato</h2>
+          <form aria-label="Fomulário de Contato">
+            <label for="nome"/>
+            </form>
+          </form>
+        </selection>
+          
+        </seletion>
+      </main>
+  </body>
+</html>
